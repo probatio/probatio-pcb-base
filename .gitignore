@@ -30,13 +30,14 @@ eagle.epf
 *.crc
 *.crs
 
-*.dri
-*.drl
-*.gpi
-*.pls
-*.ger
-*.gpi
-*.xln
+#joao: permiti colocar Gebers no repositório
+#*.dri
+#*.drl
+#*.gpi
+#*.pls
+#*.ger
+#*.gpi
+#*.xln
 
 *.drd
 *.drd.*
