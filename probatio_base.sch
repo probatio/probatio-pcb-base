@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -175,8 +176,6 @@
 <smd name="2" x="0" y="-1.27" dx="2.54" dy="1.27" layer="1"/>
 <smd name="1" x="0" y="-3.81" dx="2.54" dy="1.27" layer="1"/>
 </package>
-<<<<<<< HEAD
-=======
 <package name="BATEBIT">
 <rectangle x1="-10.7315" y1="-15.4305" x2="-10.6553" y2="-15.4051" layer="25"/>
 <rectangle x1="-9.9187" y1="-15.4305" x2="-9.8425" y2="-15.4051" layer="25"/>
@@ -20255,7 +20254,6 @@
 <rectangle x1="-1.651934375" y1="5.29224375" x2="1.055703125" y2="5.37708125" layer="21"/>
 <rectangle x1="-1.397934375" y1="5.37708125" x2="0.717884375" y2="5.4616625" layer="21"/>
 </package>
->>>>>>> release
 </packages>
 <symbols>
 <symbol name="M04">
@@ -20274,12 +20272,9 @@
 <pin name="3" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<<<<<<< HEAD
-=======
 <symbol name="BATEBIT">
 <text x="-12.7" y="0" size="1.27" layer="94" font="vector">Batebit Artesania Digital</text>
 </symbol>
->>>>>>> release
 </symbols>
 <devicesets>
 <deviceset name="POGO_PINS_4">
@@ -20318,8 +20313,6 @@
 </device>
 </devices>
 </deviceset>
-<<<<<<< HEAD
-=======
 <deviceset name="BATEBIT">
 <gates>
 <gate name="G$1" symbol="BATEBIT" x="0" y="0"/>
@@ -20342,7 +20335,6 @@
 </device>
 </devices>
 </deviceset>
->>>>>>> release
 </devicesets>
 </library>
 </libraries>
@@ -20367,32 +20359,62 @@
 <part name="U$10" library="Batebit" deviceset="M04" device="WIRE_PAD"/>
 <part name="U$11" library="Batebit" deviceset="M04" device="WIRE_PAD"/>
 <part name="U$12" library="Batebit" deviceset="M04" device="WIRE_PAD"/>
-<<<<<<< HEAD
-=======
 <part name="U$13" library="Batebit" deviceset="BATEBIT" device="_PEQ"/>
->>>>>>> release
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="2.54" y="12.7" rot="R90"/>
-<instance part="U$2" gate="G$1" x="12.7" y="0"/>
-<instance part="U$3" gate="G$1" x="0" y="-10.16" rot="R270"/>
-<instance part="U$4" gate="G$1" x="-10.16" y="2.54" rot="R180"/>
-<instance part="U$5" gate="G$1" x="-104.14" y="45.72"/>
-<instance part="U$9" gate="G$1" x="-78.74" y="45.72"/>
-<instance part="U$6" gate="G$1" x="-104.14" y="25.4"/>
-<instance part="U$7" gate="G$1" x="-78.74" y="25.4"/>
-<instance part="U$8" gate="G$1" x="-104.14" y="2.54"/>
-<instance part="U$10" gate="G$1" x="-78.74" y="2.54"/>
-<instance part="U$11" gate="G$1" x="-104.14" y="-17.78"/>
-<instance part="U$12" gate="G$1" x="-78.74" y="-17.78"/>
-<<<<<<< HEAD
-=======
-<instance part="U$13" gate="G$1" x="38.1" y="-22.86"/>
->>>>>>> release
+<instance part="U$1" gate="G$1" x="2.54" y="12.7" smashed="yes" rot="R90">
+<attribute name="VALUE" x="10.16" y="7.62" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="-5.842" y="7.62" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="U$2" gate="G$1" x="12.7" y="0" smashed="yes">
+<attribute name="VALUE" x="7.62" y="-7.62" size="1.778" layer="96"/>
+<attribute name="NAME" x="7.62" y="8.382" size="1.778" layer="95"/>
+</instance>
+<instance part="U$3" gate="G$1" x="0" y="-10.16" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-7.62" y="-5.08" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="8.382" y="-5.08" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="U$4" gate="G$1" x="-10.16" y="2.54" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-5.08" y="10.16" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="-5.08" y="-5.842" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="U$5" gate="G$1" x="-104.14" y="45.72" smashed="yes">
+<attribute name="VALUE" x="-109.22" y="38.1" size="1.778" layer="96"/>
+<attribute name="NAME" x="-109.22" y="54.102" size="1.778" layer="95"/>
+</instance>
+<instance part="U$9" gate="G$1" x="-78.74" y="45.72" smashed="yes">
+<attribute name="VALUE" x="-83.82" y="38.1" size="1.778" layer="96"/>
+<attribute name="NAME" x="-83.82" y="54.102" size="1.778" layer="95"/>
+</instance>
+<instance part="U$6" gate="G$1" x="-104.14" y="25.4" smashed="yes">
+<attribute name="VALUE" x="-109.22" y="17.78" size="1.778" layer="96"/>
+<attribute name="NAME" x="-109.22" y="33.782" size="1.778" layer="95"/>
+</instance>
+<instance part="U$7" gate="G$1" x="-78.74" y="25.4" smashed="yes">
+<attribute name="VALUE" x="-83.82" y="17.78" size="1.778" layer="96"/>
+<attribute name="NAME" x="-83.82" y="33.782" size="1.778" layer="95"/>
+</instance>
+<instance part="U$8" gate="G$1" x="-104.14" y="2.54" smashed="yes">
+<attribute name="VALUE" x="-109.22" y="-5.08" size="1.778" layer="96"/>
+<attribute name="NAME" x="-109.22" y="10.922" size="1.778" layer="95"/>
+</instance>
+<instance part="U$10" gate="G$1" x="-78.74" y="2.54" smashed="yes">
+<attribute name="VALUE" x="-83.82" y="-5.08" size="1.778" layer="96"/>
+<attribute name="NAME" x="-83.82" y="10.922" size="1.778" layer="95"/>
+</instance>
+<instance part="U$11" gate="G$1" x="-104.14" y="-17.78" smashed="yes">
+<attribute name="VALUE" x="-109.22" y="-25.4" size="1.778" layer="96"/>
+<attribute name="NAME" x="-109.22" y="-9.398" size="1.778" layer="95"/>
+</instance>
+<instance part="U$12" gate="G$1" x="-78.74" y="-17.78" smashed="yes">
+<attribute name="VALUE" x="-83.82" y="-25.4" size="1.778" layer="96"/>
+<attribute name="NAME" x="-83.82" y="-9.398" size="1.778" layer="95"/>
+</instance>
+<instance part="U$13" gate="G$1" x="38.1" y="-22.86" smashed="yes"/>
 </instances>
 <busses>
 </busses>
