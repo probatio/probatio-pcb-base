@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -171,10 +171,10 @@
 <smd name="P$4" x="9" y="0" dx="2.5" dy="2.5" layer="1"/>
 </package>
 <package name="1X04_SMD">
-<smd name="3" x="0" y="1.27" dx="2.54" dy="1.27" layer="1"/>
-<smd name="4" x="0" y="3.81" dx="2.54" dy="1.27" layer="1"/>
-<smd name="2" x="0" y="-1.27" dx="2.54" dy="1.27" layer="1"/>
-<smd name="1" x="0" y="-3.81" dx="2.54" dy="1.27" layer="1"/>
+<smd name="3" x="0" y="1.27" dx="3.81" dy="1.27" layer="1"/>
+<smd name="4" x="0" y="3.81" dx="3.81" dy="1.27" layer="1"/>
+<smd name="2" x="0" y="-1.27" dx="3.81" dy="1.27" layer="1"/>
+<smd name="1" x="0" y="-3.81" dx="3.81" dy="1.27" layer="1"/>
 </package>
 <package name="BATEBIT">
 <rectangle x1="-10.7315" y1="-15.4305" x2="-10.6553" y2="-15.4051" layer="25"/>
